@@ -7,6 +7,7 @@ import java.io.Serializable;
 
 @Data
 @Entity
+@Table(name="case_data")
 public class CaseData implements Serializable {
 
     @Id
